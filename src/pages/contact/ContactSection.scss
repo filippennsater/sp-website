@@ -1,0 +1,104 @@
+.contact-container {
+    background-color: #ffffff;
+    width: 100%;
+    height: calc(1100px + 3vw);
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.contact-info-wrap{
+    //background-color: #9b2d2d;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: center;
+    object-fit: contain;
+    flex-wrap: wrap;
+    z-index: 21;
+}
+
+.logo-black-container{
+    background: url('../../../public/images/logo-black.png') center center no-repeat;
+    background-size: 100%;
+    //background-color: purple;
+    width: calc(150px + 7vw);
+    height:calc(150px + 7vw);
+    display: flex;
+    z-index: 30;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container{
+    //background-color: green;
+    width: 450px;
+    height: flex;
+    display: flex;
+    z-index: 30;
+    justify-content: center;
+    align-items: top;
+    margin-bottom: -120px;
+}
+.right-container{
+    //background-color: blue;
+    width: 450px;
+    height: flex;
+    display: flex;
+    z-index: 30;
+    justify-content: left;
+    align-items: top;
+    flex-direction: column;
+}
+
+
+.h30{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    //color: #555555;
+    //color: #572D87;
+    font-size: calc(20px + 0.2vw);
+    margin-top: calc(15px + 1vw);
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+  
+.p30{
+    font-family: "Old Standard TT";
+    //color: #555555;
+    //color: #572D87;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: calc(15px + 0.5vw);;
+    line-height: 35px;
+    text-decoration: inherit;
+}
+
+.input-competition{
+    margin-bottom: 10px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(0, 0, 0)
+}
+
+.redTextContact-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redTextContact {
+    display: flex;
+    color: red;
+    margin-top: 10px;
+    font-size: calc(9px + 0.3vw);
+    font-weight: bold;
+    margin-top: 10px;  
+}

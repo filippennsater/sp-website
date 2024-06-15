@@ -1,0 +1,38 @@
+.full-screen-container {
+    color: white;
+    background-color: rgb(32, 32, 32);
+    width: 100%;   // Full viewport width
+    min-height: 100vh;  // Full viewport height
+    height: flex;
+    display: flex;  // Flexbox for easy centering of content if needed
+    justify-content: center; // Optional: center content horizontally
+    align-items: center;     // Optional: center content vertically
+    overflow: hidden; // Prevents scrolling if content overflows
+    flex-flow: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .OP-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: calc(16px + 0.6vw);
+    
+    margin-top: calc(7px + 0.5vw);
+  }
+
+  .OP-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: calc(11px + 0.5vw);
+    
+    margin-top: calc(7px + 0.5vw);
+    line-height: 2.4;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  @media screen and (min-width: 1700px) {
+    .OP-text{
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+  }
