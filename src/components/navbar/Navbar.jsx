@@ -25,7 +25,24 @@ function Navbar() {
     }, []);
 
     
-    
+    useEffect(() => {
+        // Function to handle scroll event
+        const handleScroll = () => {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        };
+
+        // Add scroll event listener when component mounts
+        $(window).on('scroll', handleScroll);
+
+        // Clean up function to remove event listener when component unmounts
+        return () => {
+            $(window).off('scroll', handleScroll);
+        };
+    }, []); // Empty dependency array ensures this effect runs only once
 
     return (
 
