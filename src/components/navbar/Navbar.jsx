@@ -24,15 +24,17 @@ function Navbar() {
         };
     }, []);
 
+    
+    
+
     return (
 
         <>
+       
             <nav class="nav">
                 <div class="container">
                     <div class="logo">
-                        <Link to='/' >
-                            SP Media and health
-                        </Link>
+                        <Link to='/' className='navbar-logo'/>
                     </div>
                     <div id="mainListDiv" class="main_list">
                         <ul class="navlinks">
@@ -57,7 +59,9 @@ function Navbar() {
                     </span>
                 </div>
             </nav>
+            
         </>
+        
     );
 }
 

@@ -13,6 +13,20 @@ body {
 
 /* Navbar section */
 
+.navbar-logo {
+  background: url('../../../public/images/SP-LOGO.png') center center/cover no-repeat;
+  color: #ffffff;
+  justify-self: start;
+  margin-left: 0px;
+  cursor: pointer;
+  text-decoration: none;
+  height: calc(40px + 3.2vw);
+  width: calc(40px + 3.2vw);
+  display: flex;
+  align-items: center;
+  
+}
+
 .nav {
     width: 100%;
     height: 65px;

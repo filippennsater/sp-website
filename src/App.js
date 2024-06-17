@@ -3,18 +3,26 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import Navbar from '../src/components/navbar/Navbar';
+import Footer from '../src/components/footer/Footer';
+
 import Home from './pages/home/Home';
+import Contact from './pages/contact/Contact';
 
 
 function App() {
   return (
-    
+
     <>
-    <Router>
+      <Router>
+        <Navbar />
         <Routes>
           <Route path="/" exact Component={Home} />
+          <Route path="/contact" exact Component={Contact} />
         </Routes>
+        <Footer />
       </Router>
+      
     </>
 
   );
