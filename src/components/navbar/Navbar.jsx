@@ -56,16 +56,16 @@ function Navbar() {
                     <div id="mainListDiv" class="main_list">
                         <ul class="navlinks">
                             <li><Link to='/' >
-                                Home
+                                Hem
                             </Link></li>
                             <li><Link to='/about' >
-                                About
+                                Om
                             </Link></li>
                             <li><Link to='/services' >
-                                Services
+                                Tjänster
                             </Link></li>
                             <li><Link to='/contact' >
-                                Contact
+                                Kontakt
                             </Link></li>
                         </ul>
                     </div>
