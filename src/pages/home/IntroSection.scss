@@ -1,0 +1,124 @@
+.intr-container {
+    //background-color: #703A7D;
+    background: linear-gradient(60deg, rgb(1, 128, 22) 0%, rgb(7, 77, 5) 35%, rgb(0, 66, 10) 100%);
+    width: 100%;
+    height: calc(150px + 14vw);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.intrc-container{
+    //Have to be rgba with opacity at the end or the other child elements inside fc-container will also be affected by the opacity!
+    background-color: none;
+    width: calc(250px + 30vw);
+    height: 100%;
+
+    justify-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+
+.intrc-line{
+    width: 100%;
+    height: calc(1px + 0.06vw);
+    background-color: #ffffff;
+    margin-top: 5%;
+}
+
+.intrc-hb-container{
+    display: flex;
+    width: 100%;
+    height: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.intrc-hb-header-wrap{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.intrc-hb-button-wrap{
+    display: flex;
+    justify-content: right;     //sets button to the right
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+intrcheader{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-size: calc(8px + 0.9vw);
+}
+
+.intr-bottom-container{
+    background-color: none;
+    display: flex;
+    width: 100%;
+    height: flex;
+    align-items: center;
+    
+}
+
+.intr-circle-container{
+
+    display: flex;
+    width: calc(25px + 7vw);
+    height: calc(25px + 7vw);
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.intr-circle{
+    background: url('../../../public/images/sp-image1.jpg') center center/cover no-repeat;
+    width: 93%;
+    height: 93%;
+    margin: 3px;
+    border-radius: 100%;
+    justify-self: center;
+}
+.intr-outer-circle{
+    display: flex;
+    border-width: calc(1px + 0.06vw);
+    border-color: white;
+    border-style: solid;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intr-text-container{
+    display: flex;
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intrctext{
+    font-family: "Old Standard TT";
+    color: #ffffff;
+    font-size: calc(8px + 0.7vw);
+    font-weight: 600;
+    line-height: 1.18;
+
+    text-decoration: inherit;
+}
