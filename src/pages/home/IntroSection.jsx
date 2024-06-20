@@ -14,12 +14,11 @@ function IntroSection() {
 
             <div className='intrc-container'>
 
-                    <div className='intrc-hb-container'/>
 
                     <div className='intr-bottom-container'>
 
                         <div className='intr-text-container'>
-                            <div className='intrctext'>At Philip & Pen, we are committed to sustainable practices in every aspect of our online bookstore. We prioritize environmentally friendly packaging materials, opting for recycled and biodegradable options wherever possible to minimize our ecological footprint. We actively encourage customers to consider digital formats for their reading enjoyment, reducing the need for physical materials. Through these efforts, we strive to contribute positively to the environment while providing exceptional literary experiences to our introd patrons!</div>
+                            <div className='intrctext'>Välkommen till min hemsida! Jag heter Susanne Pennsäter och är legitimerad KBT-terapeut. Här kan du få hjälp med att hantera stress, ångest, depression och andra livsutmaningar genom kognitiv beteendeterapi (KBT). Jag erbjuder individuella samtal anpassade efter dina unika behov och mål. Utforska sidan för mer information om mina tjänster och hur vi tillsammans kan arbeta för ditt välbefinnande.</div>
                         </div>
 
                         <div className='intr-circle-container'>
