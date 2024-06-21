@@ -42,7 +42,7 @@ function Footer() {
 
                     <div className='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='https://www.linkedin.com/in/filip-penns%C3%A4ter-922508171/' target='_blank'>LinkedIn</Link>
+                        <Link to='https://www.linkedin.com/in/susanne-penns%C3%A4ter-2a0636138/' target='_blank'>LinkedIn</Link>
                         <Link to='https://github.com/filippennsater' target='_blank'>GitHub</Link>
                         <Link to='https://www.instagram.com/filippdev/' target='_blank'>Instagram</Link>
                     </div>

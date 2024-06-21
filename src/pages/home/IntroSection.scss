@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 .intr-container {
     //background-color: #703A7D;
     background: linear-gradient(60deg, rgb(206, 206, 206) 0%, rgb(231, 231, 231) 35%, rgb(255, 255, 255) 100%);
@@ -15,7 +17,7 @@
 .intrc-container{
     //Have to be rgba with opacity at the end or the other child elements inside fc-container will also be affected by the opacity!
     background-color: none;
-    width: calc(250px + 30vw);
+    width: calc(200px + 40vw);
     height: 100%;
 
     justify-self: center;
@@ -114,12 +116,15 @@ intrcheader{
     
 }
 
+
+
 .intrctext{
-    font-family: "Old Standard TT";
+    font-family: "Dancing Script", cursive;
+    //font-family: "Old Standard TT";
     color: black;
-    font-size: calc(8px + 0.7vw);
+    font-size: calc(12px + 0.7vw);
     font-weight: 600;
-    line-height: 1.18;
+    line-height: 1.5;
 
     text-decoration: inherit;
 }
