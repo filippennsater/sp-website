@@ -17,14 +17,14 @@ function Footer() {
                 <div className='footer-link-wrapper'>
 
                     <div className='footer-link-items'>
-                        <h2>About Me</h2>
+                        <h2>Om</h2>
                         <div className='p3'>Filip Pennsäter</div>
                         <div className='p3'>Sweden, Skåne, Lund</div>
                         <div className='p3'>Junior developer</div>
                     </div>
 
                     <div className='footer-link-items'>
-                        <h2>Contact</h2>
+                        <h2>Kontakt</h2>
                         <div className='p3'>0700907172</div>
                         <div className='p3'>filip.pennsater@gmail.com</div>
                     </div>
@@ -34,14 +34,14 @@ function Footer() {
                 <div className='footer-link-wrapper'>
 
                     <div className='footer-link-items'>
-                        <h2>Rights</h2>
+                        <h2>Rättigheter</h2>
                         <Link to='https://opensource-7d53e.web.app' target='_blank'>Open source</Link>
                         <Link to='https://mediainformation-ca3b9.web.app' target='_blank'>AI created media</Link>
                         <Link to='https://userinformation-76154.web.app' target='_blank'>ToS and PP</Link>
                     </div>
 
                     <div className='footer-link-items'>
-                        <h2>Social Media</h2>
+                        <h2>Sociala medier</h2>
                         <Link to='https://www.linkedin.com/in/susanne-penns%C3%A4ter-2a0636138/' target='_blank'>LinkedIn</Link>
                         <Link to='https://github.com/filippennsater' target='_blank'>GitHub</Link>
                         <Link to='https://www.instagram.com/filippdev/' target='_blank'>Instagram</Link>
@@ -58,7 +58,7 @@ function Footer() {
                     <div className='footer-logo'>
                         <Link to='/' className='footer-logo' />
                     </div>
-                    <small className='website-rights'>© 2023</small>
+                    <small className='website-rights'>© 2024</small>
                     <div className='social-icons'>
 
                         <Link
