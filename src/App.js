@@ -8,6 +8,7 @@ import Footer from '../src/components/footer/Footer';
 
 import Home from './pages/home/Home';
 import Contact from './pages/contact/Contact';
+import About from './pages/about/About';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/contact" exact Component={Contact} />
+          <Route path="/about" exact Component={About} />
         </Routes>
         <Footer />
       </Router>

@@ -1,0 +1,37 @@
+.about-container{
+    //background: url('../../../public/images/back-eng.jpg') center center/cover no-repeat;
+    //background-attachment:  fixed;
+    background-color: black;
+    height: calc(350px + 20vw);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    filter: saturate(0%);
+    
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.bl-text-container{
+    height: flex;
+    width: calc(150px + 38vw);
+    background-color: black;
+    opacity: 85%;
+    padding: calc(10px + 0.6vw);
+    align-content: center;
+    justify-content: center;
+}
+
+.abouttext{
+    font-family: "Old Standard TT";
+    color: #ffffff;
+    font-size: calc(10px + 0.6vw);
+    font-weight: 600;
+    line-height: 1.5;
+    
+    text-decoration: inherit;
+}
