@@ -7,8 +7,10 @@ import Navbar from '../src/components/navbar/Navbar';
 import Footer from '../src/components/footer/Footer';
 
 import Home from './pages/home/Home';
-import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
+import Services from './pages/services/Services';
+import Contact from './pages/contact/Contact';
+
 
 
 function App() {
@@ -19,12 +21,13 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact Component={Home} />
-          <Route path="/contact" exact Component={Contact} />
           <Route path="/about" exact Component={About} />
+          <Route path="/services" exact Component={Services} />
+          <Route path="/contact" exact Component={Contact} />
         </Routes>
         <Footer />
       </Router>
-      
+
     </>
 
   );
