@@ -13,7 +13,7 @@
   width: calc(40px + 3.2vw);
   display: flex;
   align-items: center;
-  
+  margin: 5px;
 }
 
 .nav {
@@ -99,6 +99,11 @@
 }
 
 @media screen and (max-width:768px) {
+    .navbar-logo {
+        width: 55px;
+        height: 55px;
+        margin: 5px;
+    }
   .nav {
     height: 65px;
 }
