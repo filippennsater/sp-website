@@ -9,7 +9,7 @@ function AboutSection() {
             
             <div className='bl-text-container'>
 
-                <div className='abouttext'>We at Philip & Pen, embarked on our journey with a singular vision: to share our love for literature with the world through an online platform. Beginning as a solo endeavor from our founder Philip's home office, the bookstore started small but with a big dream. Through our passion for books and unwavering commitment to customer satisfaction, we gradually expanded our offerings and cultivated a loyal following of readers. Today, Philip & Pen stands as a testament to our vision and hard work, having grown into a successful online bookstore that continues to delight book lovers with its carefully curated selection and personalized service. Despite our growth, the spirit of our original vision remains at the heart of the bookstore, ensuring that every reader feels valued and every book finds its rightful home.</div>
+                <div className='abouttext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam vehicula, nisl sit amet vestibulum gravida, ligula sapien ultricies mi, non egestas dolor justo vel purus. Suspendisse potenti. Fusce aliquam nunc ac dolor fermentum, at facilisis purus venenatis. Curabitur id lorem nec nulla facilisis volutpat. Sed consequat metus nec arcu fermentum, et tincidunt ex ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ut dolor vel arcu hendrerit fringilla a sed tortor. Vestibulum et mauris vitae nulla tempus dignissim.</div>
 
             </div>
 

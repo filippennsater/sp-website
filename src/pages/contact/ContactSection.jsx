@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import '../../App.css';
 import './ContactSection.scss';
 
+import MapComponent from './MapComponent';
+
 function ContactSection() {
 
     const [showRedText, setShowRedText] = useState(false);
@@ -19,11 +21,7 @@ function ContactSection() {
 
             <div className='contact-info-wrap'>
 
-                <div className='left-container'>
-
-                    <div className='logo-black-container' />
-
-                </div>
+                
                 <div className='right-container'>
 
                     <div className='h30'>
@@ -90,6 +88,8 @@ function ContactSection() {
                     </div>
 
                 </div>
+
+                <MapComponent />
 
             </div>
 

@@ -1,7 +1,8 @@
 .contact-container {
     background-color: #747474;
     width: 100%;
-    height: calc(1100px + 3vw);
+    min-height: 100vh;
+    height: flex;
     display: flex;
     flex-direction: row;
     
