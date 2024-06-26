@@ -1,5 +1,5 @@
 .contact-container {
-    background-color: #747474;
+    background-color: #2b5e33;
     width: 100%;
     min-height: 100vh;
     height: flex;
@@ -38,25 +38,30 @@
     align-items: center;
 }
 
+
 .left-container{
-    //background-color: green;
-    width: 450px;
-    height: flex;
-    display: flex;
-    z-index: 30;
-    justify-content: center;
-    align-items: top;
-    margin-bottom: -120px;
-}
-.right-container{
     //background-color: blue;
-    width: 450px;
+    width: 300px;
     height: flex;
     display: flex;
     z-index: 30;
     justify-content: left;
     align-items: top;
     flex-direction: column;
+    margin: 5%;
+    margin-top: 50px;
+
+}
+.right-container{
+    //background-color: blue;
+    width: 500px;
+    height: flex;
+    display: flex;
+    z-index: 30;
+    justify-content: left;
+    align-items: top;
+    flex-direction: column;
+    margin: 5%;
 }
 
 
@@ -88,18 +93,51 @@
     border-color: rgb(0, 0, 0)
 }
 
-.redTextContact-container {
+
+
+
+.map-container {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin: 5%;
+  }
+  
+  .map-container iframe {
+    max-width: 100%;
+    border: 0;
+  }
+
+
+  
+.input-suggestion{
+    display: flex;
+    height: calc(15px + 0.8vw);
+    width: 80%;
+    padding-left: 5px;
+    border-width: 2px;
 }
 
-.redTextContact {
+  .input-suggestion2{
     display: flex;
-    color: red;
-    margin-top: 10px;
-    font-size: calc(9px + 0.3vw);
-    font-weight: bold;
-    margin-top: 10px;  
+    height: calc(75px + 3vw);
+    width: 100%;
+    border-width: 2px;
+    
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    //font-size: 16px;
+    resize: vertical;
+}
+
+.suggestion-button{
+    color: white;
+    background-color: #192485;
+    width: 50%;
+    padding: calc(5px + 0.1vw);
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: calc(12px + 0.2vw);
 }
