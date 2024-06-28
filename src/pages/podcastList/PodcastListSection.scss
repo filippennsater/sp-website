@@ -1,0 +1,21 @@
+.podcastList-container {
+    background: url('../../../public/images/streetView-BnW.jpg') center center/cover no-repeat fixed;
+    background-color: #572D87;
+    width: 100%;
+    height: flex;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    object-fit: contain;
+    z-index: -1;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.podcastList-header{
+    color: white;
+    font-size: calc(20px + 0.9vw);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+  }
