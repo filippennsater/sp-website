@@ -1,13 +1,11 @@
 import React from 'react'
 import '../../App.css'
-import PodcastSection from './PodcastSection';
-import Footer from '../../components/footer/Footer';
+import PodcastSection from './ServiceSection';
 
 function Podcast (){
     return (
     <>
       <PodcastSection/>
-      <Footer/>
     </>
     );
 }

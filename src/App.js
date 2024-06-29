@@ -8,7 +8,7 @@ import Footer from '../src/components/footer/Footer';
 
 import Home from './pages/home/Home';
 import About from './pages/about/About';
-import Services from './pages/services/Services';
+import Services from './pages/servicesList/ServicesList';
 import Contact from './pages/contact/Contact';
 
 
