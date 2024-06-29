@@ -61,7 +61,7 @@ function Navbar() {
                             <li><Link to='/about' >
                                 Om
                             </Link></li>
-                            <li><Link to='/services' >
+                            <li><Link to='/servicesList' >
                                 Tjänster
                             </Link></li>
                             <li><Link to='/contact' >

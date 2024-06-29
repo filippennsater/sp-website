@@ -2,8 +2,8 @@ import React from 'react';
 import '../../App.css';
 import './ServicesListSection.scss';
 
-import ServiceListItem from '../../components/ServiceCard/ServiceListItem';
-import { services } from '../../components/ServiceCard/Services';
+import ServiceListItem from '../../components/serviceComponents/ServicesListItem';
+import { services } from '../../components/serviceComponents/Services';
 
 function ServicesListSection() {
     return (

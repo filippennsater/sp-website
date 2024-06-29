@@ -8,7 +8,8 @@ import Footer from '../src/components/footer/Footer';
 
 import Home from './pages/home/Home';
 import About from './pages/about/About';
-import Services from './pages/servicesList/ServicesList';
+import ServicesList from './pages/servicesList/ServicesList';
+import Service from './pages/service/Service';
 import Contact from './pages/contact/Contact';
 
 
@@ -22,7 +23,8 @@ function App() {
         <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/about" exact Component={About} />
-          <Route path="/services" exact Component={Services} />
+          <Route path="/servicesList" exact Component={ServicesList} />
+          <Route path="/service/:id" exact Component={Service} />
           <Route path="/contact" exact Component={Contact} />
         </Routes>
         <Footer />

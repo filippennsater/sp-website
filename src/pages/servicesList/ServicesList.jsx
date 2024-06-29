@@ -1,11 +1,11 @@
 import React from 'react'
 import '../../App.css'
-import PodcastListSection from './ServicesListSection';
+import ServicesListSection from './ServicesListSection';
 
 function ServicesList (){
     return (
     <>
-      <PodcastListSection/>
+      <ServicesListSection/>
     </>
     );
 }

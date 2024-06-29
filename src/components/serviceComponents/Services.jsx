@@ -1,10 +1,10 @@
-export const podcasts = [
+export const services = [
     {
         id: 5,
         title: "The Literary Voyage: #5",
         guest: 'William Torstensson',
-        description: "One of the foremost authors of detective fiction, captivates readers with his intricate plots and unforgettable characters. In his podcast, he delves into the art of crafting suspenseful mysteries, sharing insights and inspirations behind his acclaimed stories.",
-        image: require("./podcastImages/podcast(5).jpg"),
+        description: "One of the foremost authors of detective fiction, captivates readers with his intricate plots and unforgettable characters. In his service, he delves into the art of crafting suspenseful mysteries, sharing insights and inspirations behind his acclaimed stories.",
+        image: require("./serviceImages/service(5).jpg"),
         link: 'soundcloud.......',
     },
     {
@@ -12,7 +12,7 @@ export const podcasts = [
         title: "The Literary Voyage: #4",
         guest: 'Sofia Ullman',
         description: "Celebrated painter Sofia Ullman, known for her captivating book cover art, discusses her creative process and the stories behind her iconic designs, revealing how she brings beloved books to life through her illustrations.",
-        image: require("./podcastImages/podcast(4).jpg"),
+        image: require("./serviceImages/service(4).jpg"),
         link: 'soundcloud.......',
     },
     {
@@ -20,15 +20,15 @@ export const podcasts = [
         title: "The Literary Voyage: #3",
         guest: 'Karl Hoffmann',
         description: "A renowned literary critic sharing his insights on contemporary literature, dissecting themes, styles, and the cultural impact of today's most influential works, highlighting both celebrated and emerging authors.",
-        image: require("./podcastImages/podcast(3).jpg"),
+        image: require("./serviceImages/service(3).jpg"),
         link: 'soundcloud.......',
     },
     {
         id: 2,
         title: "The Literary Voyage: #2",
         guest: 'Hikaru Yamashita',
-        description: "In his podcast, Hikaru Yamashita delves into his favorite reads, sharing the stories and authors that have profoundly influenced his own writing. He offers listeners a glimpse into the literary inspirations that have shaped his creative journey.",
-        image: require("./podcastImages/podcast(2).jpg"),
+        description: "In his service, Hikaru Yamashita delves into his favorite reads, sharing the stories and authors that have profoundly influenced his own writing. He offers listeners a glimpse into the literary inspirations that have shaped his creative journey.",
+        image: require("./serviceImages/service(2).jpg"),
         link: 'soundcloud.......',
     },
     {
@@ -36,7 +36,7 @@ export const podcasts = [
         title: "The Literary Voyage: #1",
         guest: 'Lars Håvard and Ingrid Solveig',
         description: "A married author duo, describing their writing process as a harmonious blend of their unique perspectives, resulting in richly layered narratives. They cherish the collaborative journey, finding inspiration in each other's strengths and ideas.",
-        image: require("./podcastImages/podcast(1).jpg"),
+        image: require("./serviceImages/service(1).jpg"),
         link: 'soundcloud.......',
     },
 ];
