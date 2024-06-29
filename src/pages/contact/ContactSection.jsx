@@ -48,7 +48,9 @@ function ContactSection() {
 
                     <form>
                         <div className='small-header-wrap-suggestion'>
-                            Namn
+                            <div className='p30'>
+                                Namn
+                            </div>
                         </div>
                         <div className='suggestion-input-wrap'>
                             <input
@@ -58,7 +60,9 @@ function ContactSection() {
                             />
                         </div>
                         <div className='small-header-wrap-suggestion'>
-                            Mail
+                        <div className='p30'>
+                                Mail
+                            </div>
                         </div>
                         <div className='suggestion-input-wrap'>
                             <input
@@ -69,7 +73,9 @@ function ContactSection() {
                         </div>
 
                         <div className='small-header-wrap-suggestion'>
-                            Meddelande
+                        <div className='p30'>
+                                Meddelande
+                            </div>
                         </div>
                         <div className='suggestion-input-wrap'>
                             <textarea

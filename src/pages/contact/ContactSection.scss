@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 .contact-container {
     background-color: #2b5e33;
     width: 100%;
@@ -50,8 +52,8 @@
     flex-direction: column;
     margin: 5%;
     margin-top: 50px;
-
 }
+
 .right-container{
     //background-color: blue;
     width: 500px;
@@ -66,22 +68,23 @@
 
 
 .h30{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Dancing Script", cursive;
+    //font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     //color: #555555;
     //color: #572D87;
-    font-size: calc(20px + 0.2vw);
+    font-size: calc(35px + 0.2vw);
     margin-top: calc(15px + 1vw);
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: bold;
 }
   
 .p30{
     font-family: "Old Standard TT";
     //color: #555555;
     //color: #572D87;
-    font-size: 15px;
-    font-weight: 200;
-    margin-top: calc(15px + 0.5vw);;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 13px;
     line-height: 35px;
     text-decoration: inherit;
 }
@@ -113,15 +116,20 @@
   
 .input-suggestion{
     display: flex;
-    height: calc(15px + 0.8vw);
-    width: 80%;
-    padding-left: 5px;
+    height: 30px;
+    width: 100%;
     border-width: 2px;
+    
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    //font-size: 16px;
+    resize: vertical;
 }
 
   .input-suggestion2{
     display: flex;
-    height: calc(75px + 3vw);
+    height: 100px;
     width: 100%;
     border-width: 2px;
     
@@ -134,10 +142,22 @@
 
 .suggestion-button{
     color: white;
-    background-color: #192485;
+    background-color: #031f00;
     width: 50%;
     padding: calc(5px + 0.1vw);
     margin-top: 40px;
     font-weight: 600;
     font-size: calc(12px + 0.2vw);
 }
+
+.suggestion-button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1700px) {
+   
+    .left-container{
+        margin-top: 100px;
+    }
+    
+  }
