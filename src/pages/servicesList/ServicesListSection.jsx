@@ -10,7 +10,7 @@ function ServicesListSection() {
 
         <div className='servicesList-container'>
 
-            <div className='servicesList-header'>Services</div>
+            <div className='servicesList-header'>Tjänster</div>
 
             {services.map(service => (
                 <ServiceListItem 
