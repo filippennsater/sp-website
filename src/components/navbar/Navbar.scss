@@ -22,6 +22,7 @@
     height: flex;
     position: fixed;
     line-height: 65px;
+    //line-height: calc(65px + 3.2vw); //change this to adjust height for links
     text-align: center;
     z-index: 99;
 }
@@ -344,6 +345,7 @@
 .affix {
     padding: 0;
     background-color: #111;
+    line-height: calc(65px + 3.2vw);
 }
 
 
