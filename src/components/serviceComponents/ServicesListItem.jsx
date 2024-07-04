@@ -21,9 +21,9 @@ function ServicesListItem(props) {
                     <div className="serv-header">
                         {props.title}
                     </div>
-                    <div className="serv-header2">
+                    {/*<div className="serv-header2">
                         {props.guest}
-                    </div>
+                    </div>*/}
                 </div>
 
                 <div className="serv-right-container">
@@ -31,7 +31,7 @@ function ServicesListItem(props) {
                         {props.description}
                     </div>
                         <Link className='serv-button-container' to={`/service/${props.id}`}>
-                            <div className="serv-button">Listen to this services&nbsp;&nbsp;<i className="fa-solid fa-play" /></div>
+                            <div className="serv-button">Mer information&nbsp;&nbsp;<i className="fa-solid fa-play" /></div>
                         </Link>
                 </div>
 

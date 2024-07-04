@@ -10,6 +10,7 @@
     object-fit: contain;
     z-index: 21;
     overflow: hidden;
+    justify-content: center;
 }
 
 .service-info-container{
@@ -22,7 +23,7 @@
     justify-content: center;
     flex-wrap: wrap;
     //flex-direction: column;
-    margin-top: calc(50px + 5vw);
+    //margin-top: calc(50px + 5vw);
     border-radius: 20px;
     box-shadow: 3px 3px 20px black;
 

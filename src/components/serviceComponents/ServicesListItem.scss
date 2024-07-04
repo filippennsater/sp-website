@@ -10,14 +10,17 @@
 
 .serv-image{
     display: flex;
-    width:calc(100px + 6vw);
+    width: calc(100px + 6vw);
     height: calc(100px + 6vw);
 }
 
 .serv-left-container{
+  background-color: green;
   display: flex;
   flex-direction: column;
-  width: flex;
+  width: calc(100px + 6vw);
+  height: calc(100px + 6vw);
+  justify-content: center;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -73,8 +76,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     //color: #555555;
     //color: #572D87;
-    font-size: calc(8px + 0.7vw);
-    margin-top: calc(15px + 0.5vw);
+    font-size: calc(6px + 0.5vw);
+    //margin-top: calc(12px + 0.5vw);
     letter-spacing: 2px;
     font-weight: 400;
   }
