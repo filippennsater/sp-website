@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 .servicesList-container {
     //background: url('../../../public/images/streetView-BnW.jpg') center center/cover no-repeat fixed;
-    background-color: #572D87;
+    background-color: #889138;
     width: 100%;
     height: flex;
     display: flex;
@@ -15,8 +17,8 @@
 
 .servicesList-header{
     color: white;
-    font-size: calc(20px + 0.9vw);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 20px;
+    font-size: calc(25px + 1.8vw);
+    font-family: "Dancing Script", cursive;
+    margin-bottom: calc(30px + 2vw);
     margin-top: calc(80px + 3vw);
   }

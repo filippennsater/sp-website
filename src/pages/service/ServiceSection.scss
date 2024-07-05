@@ -1,5 +1,5 @@
 .service-container {
-    background-color: #572D87;
+    background-color: #048197;
     width: 100%;
     min-height: 100vh;
     height: flex;
@@ -14,8 +14,8 @@
 }
 
 .service-info-container{
-    background-color: #9FCE9A;
-    width: calc(200px + 35vw);
+    background-color: #d8d8d8;
+    width: calc(200px + 40vw);
     min-height: calc(470px + 9vw);
     height: flex;
     display: flex;
@@ -24,8 +24,8 @@
     flex-wrap: wrap;
     //flex-direction: column;
     //margin-top: calc(50px + 5vw);
-    border-radius: 20px;
-    box-shadow: 3px 3px 20px black;
+    //border-radius: 20px;
+    box-shadow: 3px 3px 20px rgb(88, 88, 88);
 
     //align-items: center;
     object-fit: contain;
@@ -61,11 +61,11 @@
 
 .service-picture-container{
     background-color: #000000;
-    width: calc(130px + 4vw);
-    height: calc(150px + 4vw);
+    width: calc(150px + 6vw);
+    height: calc(150px + 6vw);
     display: flex;
     border-radius: 10px;
-    box-shadow: 3px 3px 20px black;
+    //box-shadow: 3px 3px 20px black;
     margin-top: 45%;
     align-items: center;
     justify-content: center;
@@ -106,6 +106,7 @@
     object-fit: contain;
     z-index: 21;
     overflow: hidden;
+    text-align: center;
 }
 
 .service-info-text-container{
@@ -123,6 +124,7 @@
     z-index: 21;
     overflow: hidden;
     padding: 7%;
+    text-align: center;
 }
 
 .soundcloud-container{
