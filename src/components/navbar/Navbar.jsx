@@ -4,7 +4,6 @@ import './Navbar.scss';
 import { createContext } from 'react';
 import $ from 'jquery';
 
-
 export const ThemeContext = createContext(null);
 
 function Navbar() {
@@ -24,7 +23,6 @@ function Navbar() {
         };
     }, []);
 
-    
     useEffect(() => {
         // Function to handle scroll event
         const handleScroll = () => {
@@ -44,41 +42,44 @@ function Navbar() {
         };
     }, []); // Empty dependency array ensures this effect runs only once
 
-    return (
+    useEffect(() => {
+        // Close the menu when a link is clicked
+        const handleLinkClick = () => {
+            $('.navTrigger').removeClass('active');
+            $('#mainListDiv').removeClass('show_list');
+        };
 
+        $('#mainListDiv ul li a').on('click', handleLinkClick);
+
+        // Clean up function to remove event handler when component unmounts
+        return () => {
+            $('#mainListDiv ul li a').off('click', handleLinkClick);
+        };
+    }, []);
+
+    return (
         <>
-       
-            <nav class="nav">
-                <div class="container">
-                    <div class="logo">
+            <nav className="nav">
+                <div className="container">
+                    <div className="logo">
                         <Link to='/' className='navbar-logo'/>
                     </div>
-                    <div id="mainListDiv" class="main_list">
-                        <ul class="navlinks">
-                            <li><Link to='/' >
-                                Hem
-                            </Link></li>
-                            <li><Link to='/about' >
-                                Om
-                            </Link></li>
-                            <li><Link to='/servicesList' >
-                                Tjänster
-                            </Link></li>
-                            <li><Link to='/contact' >
-                                Kontakt
-                            </Link></li>
+                    <div id="mainListDiv" className="main_list">
+                        <ul className="navlinks">
+                            <li><Link to='/'>Hem</Link></li>
+                            <li><Link to='/about'>Om</Link></li>
+                            <li><Link to='/servicesList'>Tjänster</Link></li>
+                            <li><Link to='/contact'>Kontakt</Link></li>
                         </ul>
                     </div>
-                    <span class="navTrigger">
+                    <span className="navTrigger">
                         <i></i>
                         <i></i>
                         <i></i>
                     </span>
                 </div>
             </nav>
-            
         </>
-        
     );
 }
 

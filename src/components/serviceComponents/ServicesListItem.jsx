@@ -22,7 +22,7 @@ function ServicesListItem(props) {
                         {props.title}
                     </div>
                         <Link className='serv-button-container' to={`/service/${props.id}`}>
-                            <div className="serv-button">Mer information&nbsp;&nbsp;<i className="fa-solid fa-play" /></div>
+                            <div className="serv-button">Mer information{/*&nbsp;&nbsp;<i className="fa-solid fa-play" />*/}</div>
                         </Link>
                         </div>
 
