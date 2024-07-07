@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../App.css';
 import './ServiceSection.scss';
+import { Link } from "react-router-dom";
+
 
 import { useParams } from 'react-router-dom';
 import { services } from '../../components/serviceComponents/Services';
@@ -44,7 +46,9 @@ function ServiceSection() {
                     <div className='service-info-text-container'>
                         {service.description}
                     </div>
-
+                    <Link className='sserv-button-container' to="">
+                        <div className="sserv-button">Boka här</div>
+                    </Link>
                 </div>
 
             </div>

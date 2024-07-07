@@ -126,22 +126,39 @@
     padding: 7%;
     text-align: center;
 }
-
-.soundcloud-container{
-    //background-color: #000000;
-    color: #000000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: calc(12px + 0.6vw);
-    width: flex;
-    height: flex;
+.sserv-button-container{
     display: flex;
-    margin-top: calc(20px + 0.5vw);
-    align-items: center;
-    justify-content: center;
+    justify-content: center;   
+    width: 100%;
+    height: flex;
     object-fit: contain;
-    z-index: 21;
-    overflow: hidden;
-}
+    margin-top: auto;
+    margin-bottom: 10%;
+  }
+.sserv-button{
+    color: white;
+    background-color: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: flex;
+    height: 100%;
+    padding: 1% 2% 1% 2%;
+    text-decoration: none;
+  
+    border-width: calc(1px + 0.08vw);
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    font-size: calc(10px + 0.5vw);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .sserv-button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+  }
 
 
 @media screen and (max-width: 1700px) {
