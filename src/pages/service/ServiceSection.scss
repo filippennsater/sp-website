@@ -136,7 +136,7 @@
     margin-bottom: 10%;
   }
 .sserv-button{
-    color: white;
+    color: #048197;
     background-color: none;
     align-items: center;
     display: flex;
@@ -149,14 +149,20 @@
     border-width: calc(1px + 0.08vw);
     border-style: solid;
     border-radius: 25px;
-    border-color: white;
+    border-color: #048197;
     font-size: calc(10px + 0.5vw);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .sserv-button:hover{
-    color: black;
+    color: #048197;
     background-color: white;
+    cursor: pointer;
+  }
+
+  .sserv-button:active{
+    color: #048197;
+    background-color: rgb(146, 146, 146);
     cursor: pointer;
   }
 

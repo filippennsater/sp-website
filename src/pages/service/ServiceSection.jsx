@@ -47,7 +47,7 @@ function ServiceSection() {
                         {service.description}
                     </div>
                     <Link className='sserv-button-container' to="">
-                        <div className="sserv-button">Boka här</div>
+                        <div className="sserv-button" >Boka tid här</div>
                     </Link>
                 </div>
 
