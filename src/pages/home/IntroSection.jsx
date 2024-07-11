@@ -42,9 +42,7 @@ function IntroSection() {
             </div>
           </div>
           <div className='intr-circle-container'>
-            <div className='intr-outer-circle'>
               <div className='intr-circle' style={{ mask: 'url(#circleMask)', WebkitMask: 'url(#circleMask)' }} />
-            </div>
           </div>
         </div>
       </div>
