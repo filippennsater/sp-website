@@ -4,7 +4,8 @@
     //background-color: #703A7D;
     background: linear-gradient(60deg, rgb(206, 206, 206) 0%, rgb(231, 231, 231) 35%, rgb(255, 255, 255) 100%);
     width: 100%;
-    height: calc(350px + 14vw);
+    min-height: calc(350px + 14vw);
+    height: flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +13,7 @@
     object-fit: contain;
     z-index: 21;
     overflow: hidden;
+    padding: 20px 0 20px 0;
 }
 
 .intrc-container{
@@ -24,7 +26,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     object-fit: contain;
 }
@@ -65,20 +67,12 @@ intrcheader{
     font-size: calc(8px + 0.9vw);
 }
 
-.intr-bottom-container{
-    background-color: none;
-    display: flex;
-    width: 100%;
-    height: flex;
-    align-items: center;
-    
-}
 
 .intr-circle-container{
 
     display: flex;
-    width: calc(95px + 7vw);
-    height: calc(95px + 7vw);
+    width: calc(100px + 7vw);
+    height: calc(100px + 7vw);
     justify-content: center;
     align-content: center;
     
@@ -109,8 +103,8 @@ intrcheader{
 .intr-text-container{
     display: flex;
     width: 70%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     justify-content: center;
     align-items: center;
     
@@ -122,9 +116,23 @@ intrcheader{
     font-family: "Dancing Script", cursive;
     //font-family: "Old Standard TT";
     color: black;
-    font-size: calc(12px + 0.7vw);
+    font-size: calc(16px + 0.7vw);
     font-weight: 600;
     line-height: 1.5;
 
     text-decoration: inherit;
+}
+
+@media screen and (max-width: 1700px) {
+    .intrc-container{
+        flex-direction: column;
+    }
+
+    .intr-text-container{
+        margin-top: 15px;
+    }
+
+    .intr-text-container{
+        width: 90%;
+    }
 }
