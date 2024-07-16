@@ -37,8 +37,7 @@
     width: calc(100px + 7vw);
     height: calc(100px + 7vw);
     justify-content: center;
-    align-content: center;
-    
+    align-content: center;    
 }
 
 .intr-circle{
@@ -89,9 +88,13 @@
         flex-direction: column;
     }
 
+    .intr-circle-container{
+
+        margin-top: 20px;    
+    }
     .intr-text-container{
         margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .intr-text-container{
