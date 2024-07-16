@@ -31,43 +31,6 @@
     object-fit: contain;
 }
 
-.intrc-line{
-    width: 100%;
-    height: calc(1px + 0.06vw);
-    background-color: #ffffff;
-    margin-top: 5%;
-}
-
-.intrc-hb-container{
-    display: flex;
-    width: 100%;
-    height: flex;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.intrc-hb-header-wrap{
-    display: flex;
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.intrc-hb-button-wrap{
-    display: flex;
-    justify-content: right;     //sets button to the right
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-}
-
-intrcheader{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    font-size: calc(8px + 0.9vw);
-}
-
-
 .intr-circle-container{
 
     display: flex;
@@ -127,7 +90,8 @@ intrcheader{
     }
 
     .intr-text-container{
-        margin-top: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .intr-text-container{
