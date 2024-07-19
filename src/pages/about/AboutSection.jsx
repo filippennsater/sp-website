@@ -9,7 +9,7 @@ function AboutSection() {
 
             <div className='cards-container'>
 
-                <div className='abouttext'>
+                
                     <div className='info-card1'>
 
                     </div>
@@ -22,7 +22,6 @@ function AboutSection() {
                     <div className='info-card4'>
 
                     </div>
-                </div>
 
             </div>
 
