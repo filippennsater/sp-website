@@ -2,10 +2,11 @@
     //background: url('../../../public/images/back-eng.jpg') center center/cover no-repeat;
     //background-attachment:  fixed;
     background-color: rgb(133, 0, 110);
-    height: 100vh;
+    min-height: 100vh;
+    height: flex;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     //filter: saturate(0%);
     
     align-items: center;
@@ -16,38 +17,36 @@
     overflow: hidden;
 }
 
-.bl-text-container{
-    height: flex;
-    width: calc(150px + 38vw);
+.cards-container{
+    display: flex;
+    //height: flex;
+    width: 90%;
     background-color: black;
-    opacity: 85%;
     padding: calc(10px + 0.6vw);
     align-content: center;
-    justify-content: center;
+    //justify-content: center;
+    flex-direction: row;
 }
 
-.info-card1{
-    background-color: #0050b9;
+.info-card1, .info-card2, .info-card3, .info-card4 {
+    display: flex;
+    
+    background-color: #1754a5;
     width: 400px;
-    height: 700px;
+    height: 600px;
+    margin: 10px; /* Add margin between the cards */
 }
 
-.info-card2{
-    background-color: #0050b9;
-    width: 400px;
-    height: 700px;
+.info-card2 {
+    background-color: #198032;
 }
 
-.info-card3{
-    background-color: #0050b9;
-    width: 400px;
-    height: 700px;
+.info-card3 {
+    background-color: #729620;
 }
 
-.info-card4{
-    background-color: #0050b9;
-    width: 400px;
-    height: 700px;
+.info-card4 {
+    background-color: #a06828;
 }
 
 .abouttext{
