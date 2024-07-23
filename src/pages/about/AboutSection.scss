@@ -60,3 +60,16 @@
     text-decoration: inherit;
 }
 
+@media screen and (max-width: 1700px) {
+
+    .info-card1, .info-card2, .info-card3, .info-card4 {
+        width: 350px;
+        height: 500px;
+    }
+
+    .info-card1{
+        margin-top: 100px;
+    }
+    
+}
+
