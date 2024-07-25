@@ -36,12 +36,14 @@
     border-width: 4px;
     border-color: #462727;
     border-style:solid;
+    //text-align: center;
 }
 
 .info-card2 {
     background-color: #198032;
     background: url('../../../public/images/funfun.jpg') center center/cover no-repeat;
-    filter: saturate(0%);}
+    filter: saturate(0%);
+}
 
 .info-card3 {
     background-color: #729620;
@@ -51,12 +53,22 @@
     background-color: #a06828;
 }
 
-.abouttext{
+.about-header{
     font-family: "Old Standard TT";
     color: #ffffff;
-    font-size: calc(10px + 0.6vw);
+    font-size: calc(25px + 0.3vw);
     font-weight: 600;
     line-height: 1.5;
+    
+    text-decoration: inherit;
+}
+.about-text{
+    font-family: "Old Standard TT";
+    color: #ffffff;
+    font-size: calc(18px + 0.3vw);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 5%;
     
     text-decoration: inherit;
 }
