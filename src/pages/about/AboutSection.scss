@@ -37,6 +37,8 @@
     border-color: #462727;
     border-style:solid;
     //text-align: center;
+    flex-flow: column;
+    padding: calc(10px + 0.3vw);
 }
 
 .info-card2 {
@@ -53,8 +55,13 @@
     background-color: #a06828;
 }
 
+.header-container{
+    width: 100%;
+    text-align: center;
+}
+
 .about-header{
-    font-family: "Old Standard TT";
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     font-size: calc(25px + 0.3vw);
     font-weight: 600;
@@ -63,7 +70,7 @@
     text-decoration: inherit;
 }
 .about-text{
-    font-family: "Old Standard TT";
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     font-size: calc(18px + 0.3vw);
     font-weight: 600;
