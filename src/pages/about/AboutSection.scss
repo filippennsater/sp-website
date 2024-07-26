@@ -1,7 +1,7 @@
 .about-container{
     //background: url('../../../public/images/back-eng.jpg') center center/cover no-repeat;
     //background-attachment:  fixed;
-    background-color: rgb(133, 0, 110);
+    background-color: rgb(107, 36, 95);
     min-height: 100vh;
     height: flex;
     width: 100%;
@@ -28,13 +28,13 @@
 
 .info-card1, .info-card2, .info-card3, .info-card4 {
     display: flex;
-    background-color: #1754a5;
+    background-color: #1b5329;
     width: 400px;
     height: 600px;
     margin: 20px;
     border-radius: 20px;
     border-width: 4px;
-    border-color: #462727;
+    border-color: #381f1f;
     border-style:solid;
     //text-align: center;
     flex-flow: column;
@@ -42,17 +42,24 @@
 }
 
 .info-card2 {
-    background-color: #198032;
-    background: url('../../../public/images/funfun.jpg') center center/cover no-repeat;
-    filter: saturate(0%);
+    background-color: #1b5329;
 }
 
 .info-card3 {
-    background-color: #729620;
+    background-color: #1b5329;
+    background: url('../../../public/images/MoP2.jpg') center center/cover no-repeat;
+    filter: saturate(0%);
+    transition: 500ms;
+}
+
+.info-card3:hover {
+    background-color: #155826;
+    filter: saturate(100%);
+    transition: 500ms;
 }
 
 .info-card4 {
-    background-color: #a06828;
+    background-color: #832b2b;
 }
 
 .header-container{
