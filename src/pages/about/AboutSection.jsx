@@ -13,11 +13,10 @@ function AboutSection() {
                     <div className='header-container'>
                         <div className='about-header'>OM</div>
                     </div>
-                    <div className='about-text'>Jag arbetar med evidensbaserad kognitiv beteendeterapi (KBT) och familjeterapi (IBCT)</div>
+                    <div className='about-text'>Efter att ha arbetat inom företagshälsovård i över 20 år och sett det ökande behovet av individanpassad behandling, kände jag en stark drivkraft att starta en egen klinik för att kunna erbjuda skräddarsydd kognitiv beteendeterapi och familjeterapi.<br />Mitt mål är att skapa en trygg och stödjande miljö där klienter kan få den hjälp de behöver för att hantera livets utmaningar.</div>
                 </div>
                 <div className='info-card2'>
-                    <div className='about-text'>Med över 20 års erfarenhet från behandling, samtal.</div>
-                    <div className='about-text'>Över 20 års erfarenhet av arbetsplatsrelaterad problematik från företagshälsovård. Som utredning och bedömning av konflikter, svåra samtal, utredning och bedömning av kränkningsanmälan, arbetsförmågebedömningar.</div>
+                    <div className='about-text'>Jag har över 20 års erfarenhet av behandling och samtal, samt omfattande erfarenhet av arbetsplatsrelaterad problematik inom företagshälsovård. <br /><br />Jag arbetar med evidensbaserad kognitiv beteendeterapi (KBT) och familjeterapi (IBCT), samt med utredning och bedömning av konflikter, svåra samtal, kränkningsanmälningar och arbetsförmågebedömningar.</div>
                 </div>
                 <div className='info-card3'>
                 </div>

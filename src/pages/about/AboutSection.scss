@@ -1,7 +1,7 @@
 .about-container{
     //background: url('../../../public/images/back-eng.jpg') center center/cover no-repeat;
     //background-attachment:  fixed;
-    background-color: rgb(107, 36, 95);
+    background-color: rgb(109, 42, 99);
     min-height: 100vh;
     height: flex;
     width: 100%;
@@ -28,7 +28,7 @@
 
 .info-card1, .info-card2, .info-card3, .info-card4 {
     display: flex;
-    background-color: #1b5329;
+    background-color: #225530;
     width: 400px;
     height: 600px;
     margin: 20px;
@@ -42,7 +42,7 @@
 }
 
 .info-card2 {
-    background-color: #1b5329;
+    background-color: #225530;
 }
 
 .info-card3 {
@@ -70,7 +70,7 @@
 .about-header{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    font-size: calc(25px + 0.3vw);
+    font-size: calc(25px + 0.25vw);
     font-weight: 600;
     line-height: 1.5;
     
@@ -79,7 +79,7 @@
 .about-text{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    font-size: calc(18px + 0.3vw);
+    font-size: calc(18px + 0.25vw);
     font-weight: 600;
     line-height: 1.5;
     margin-top: 5%;
