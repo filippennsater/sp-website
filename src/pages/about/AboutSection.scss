@@ -18,9 +18,9 @@
 }
 
 .cards-container {
+    //background-color: black;
     display: flex;
     width: flex;
-    //background-color: black;
     padding: 10px;
     justify-content: center;
     flex-wrap: wrap; /* Allow the cards to wrap to the next line if they don't fit */
@@ -34,7 +34,7 @@
     margin: 20px;
     border-radius: 20px;
     border-width: 4px;
-    border-color: #381f1f;
+    border-color: #660b29;
     border-style:solid;
     //text-align: center;
     flex-flow: column;

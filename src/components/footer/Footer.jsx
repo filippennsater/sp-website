@@ -63,7 +63,7 @@ function Footer() {
 
                         <Link
                             className='social-icon-link linkedin'
-                            to='https://www.linkedin.com/in/filip-penns%C3%A4ter-922508171/'
+                            to='https://www.linkedin.com/in/susanne-penns%C3%A4ter-2a0636138/'
                             target='_blank'
                             aria-label='LinkedIn'
                         >
