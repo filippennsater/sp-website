@@ -24,9 +24,10 @@ function Footer() {
                     </div>
 
                     <div className='footer-link-items'>
-                        <h2>Kontakt</h2>
-                        <div className='p3'>0702884886</div>
-                        <div className='p3'>susanne.pennsater@gmail.com</div>
+                        <h2>Rättigheter</h2>
+                        <Link to='https://opensource-7d53e.web.app' target='_blank'>Open source</Link>
+                        <Link to='https://mediainformation-ca3b9.web.app' target='_blank'>AI created media</Link>
+                        <Link to='https://userinformation-76154.web.app' target='_blank'>ToS and PP</Link>
                     </div>
 
                 </div>
@@ -34,19 +35,17 @@ function Footer() {
                 <div className='footer-link-wrapper'>
 
                     <div className='footer-link-items'>
-                        <h2>Rättigheter</h2>
-                        <Link to='https://opensource-7d53e.web.app' target='_blank'>Open source</Link>
-                        <Link to='https://mediainformation-ca3b9.web.app' target='_blank'>AI created media</Link>
-                        <Link to='https://userinformation-76154.web.app' target='_blank'>ToS and PP</Link>
-                    </div>
-
-                    <div className='footer-link-items'>
-                        <h2>Sociala medier</h2>
+                        <h2>Länkar</h2>
                         <Link to='https://www.linkedin.com/in/susanne-penns%C3%A4ter-2a0636138/' target='_blank'>LinkedIn</Link>
-                        <Link to='https://github.com/filippennsater' target='_blank'>GitHub</Link>
-                        <Link to='https://www.instagram.com/filippdev/' target='_blank'>Instagram</Link>
+                        <Link to='' target='_blank'>Google business</Link>
                     </div>
-
+                    
+                    <div className='footer-link-items'>
+                        <h2>Kontakt</h2>
+                        <div className='p3'>0702884886</div>
+                        <div className='p3'>susanne.pennsater@gmail.com</div>
+                    </div>
+                  
                 </div>
             </div>
 
