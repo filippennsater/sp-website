@@ -38,12 +38,13 @@ function Footer() {
                         <h2>Länkar</h2>
                         <Link to='https://www.linkedin.com/in/susanne-penns%C3%A4ter-2a0636138/' target='_blank'>LinkedIn</Link>
                         <Link to='' target='_blank'>Google business</Link>
+                        
                     </div>
                     
                     <div className='footer-link-items'>
                         <h2>Kontakt</h2>
                         <div className='p3'>0702884886</div>
-                        <div className='p3'>susanne.pennsater@gmail.com</div>
+                        <div className='p3'>-@gmail.com</div>
                     </div>
                   
                 </div>
@@ -54,9 +55,7 @@ function Footer() {
 
             <section className='social-media'>
                 <div className='social-media-wrap'>
-                    
                         <Link to='/' className='footer-logo' />
-                    
                     <small className='website-rights'>© 2024</small>
                     <div className='social-icons'>
 
@@ -67,24 +66,6 @@ function Footer() {
                             aria-label='LinkedIn'
                         >
                             <i className='fab fa-linkedin' />
-                        </Link>
-
-                        <Link
-                            className='social-icon-link github'
-                            to='https://github.com/filippennsater'
-                            target='_blank'
-                            aria-label='Github'
-                        >
-                            <i className='fab fa-github' />
-                        </Link>
-
-                        <Link
-                            className='social-icon-link instagram'
-                            to='https://www.instagram.com/filippdev/'
-                            target='_blank'
-                            aria-label='Instagram'
-                        >
-                            <i className='fab fa-instagram' />
                         </Link>
 
                     </div>
