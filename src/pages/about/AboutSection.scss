@@ -1,5 +1,5 @@
 .about-container{
-    //background: url('../../../public/images/back-eng.jpg') center center/cover no-repeat;
+    background: url('../../../public/images/chamomile-big.png') center center/cover no-repeat;
     //background-attachment:  fixed;
     background-color: rgb(109, 42, 99);
     min-height: 100vh;
@@ -96,6 +96,11 @@
 
     .info-card1{
         margin-top: 100px;
+    }
+
+    .about-container{
+        background: url('../../../public/images/chamomile-mobile.png') center center/cover no-repeat;
+        background-color: rgb(109, 42, 99);
     }
     
 }
