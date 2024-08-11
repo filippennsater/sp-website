@@ -60,7 +60,7 @@ function ContactSection() {
                             />
                         </div>
                         <div className='small-header-wrap-suggestion'>
-                        <div className='p30'>
+                            <div className='p30'>
                                 Mail
                             </div>
                         </div>
@@ -73,7 +73,7 @@ function ContactSection() {
                         </div>
 
                         <div className='small-header-wrap-suggestion'>
-                        <div className='p30'>
+                            <div className='p30'>
                                 Meddelande
                             </div>
                         </div>
