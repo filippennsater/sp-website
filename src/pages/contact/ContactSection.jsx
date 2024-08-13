@@ -2,8 +2,44 @@ import React, { useState } from 'react';
 import '../../App.css';
 import './ContactSection.scss';
 
+import { Button } from './Button';
+
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+
+import { createContext } from 'react';
+
+export const ThemeContext = createContext(null);
+
 
 function ContactSection() {
+
+    const [theS, setTheS] = useState("notSent");
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_xsctubo', 'template_llb8jdn', form.current, '5jVM2ay85gp2dgiga')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+
+
+    setTheS("sent");
+    resetForm();
+
+  };
+
+
+
+  function resetForm() {
+    var form = document.getElementById("myForm");
+    form.reset();
+  };
 
 
     return (
