@@ -154,6 +154,22 @@
     cursor: pointer;
 }
 
+.confText {
+    color: rgb(255, 255, 255);
+    opacity: 0%;
+    font-style: italic;
+  }
+
+  #notSent {
+    color: rgb(255, 255, 255);
+    opacity: 0%;
+  }
+
+  #sent {
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+  }
+
 @media screen and (max-width: 1700px) {
    
     .left-container{
