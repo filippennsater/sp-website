@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import '../../App.css';
 import './ContactSection.scss';
 
-import { Button } from './Button';
+//import { Button } from './Button';
 
-import React, { useRef, useState } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 import { createContext } from 'react';
@@ -16,30 +16,30 @@ function ContactSection() {
 
     const [theS, setTheS] = useState("notSent");
 
-  const form = useRef();
+    const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_xsctubo', 'template_llb8jdn', form.current, '5jVM2ay85gp2dgiga')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-
-
-    setTheS("sent");
-    resetForm();
-
-  };
+        emailjs.sendForm('service_xsctubo', 'template_llb8jdn', form.current, '5jVM2ay85gp2dgiga')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
 
 
+        setTheS("sent");
+        resetForm();
 
-  function resetForm() {
-    var form = document.getElementById("myForm");
-    form.reset();
-  };
+    };
+
+
+
+    function resetForm() {
+        var form = document.getElementById("myForm");
+        form.reset();
+    };
 
 
     return (
@@ -82,7 +82,7 @@ function ContactSection() {
                         Nedan kan du snabbt skriva ett meddelande till oss!<br /><br />
                     </div>
 
-                    <form>
+                    <form id="myForm" ref={form} onSubmit={sendEmail}>
                         <div className='small-header-wrap-suggestion'>
                             <div className='p30'>
                                 Namn
@@ -91,8 +91,9 @@ function ContactSection() {
                         <div className='suggestion-input-wrap'>
                             <input
                                 className='input-suggestion'
+                                id="input1"
                                 type="text"
-                                name="text"
+                                name="user_name"
                             />
                         </div>
                         <div className='small-header-wrap-suggestion'>
@@ -103,8 +104,9 @@ function ContactSection() {
                         <div className='suggestion-input-wrap'>
                             <input
                                 className='input-suggestion'
-                                type="text"
-                                name="text"
+                                id="input2"
+                                type="email"
+                                name="user_email"
                             />
                         </div>
 
@@ -116,16 +118,22 @@ function ContactSection() {
                         <div className='suggestion-input-wrap'>
                             <textarea
                                 className='input-suggestion2'
+                                id="input3"
                                 type="message"
                                 name="message"
                             />
                         </div>
 
 
-                        <input className='suggestion-button cursor-pointer' type="submit" value="Skicka" />
+                        <input buttonStyle='suggestion-button cursor-pointer' type="submit" value="Skicka" />
                     </form>
+                    <ThemeContext.Provider value={{ theS, resetForm }}>
 
+                        <div className='confText' id={`${theS}`}><br />Message sent ✓</div>
+
+                    </ThemeContext.Provider>
                 </div>
+
 
 
                 <div className='right-container'>
