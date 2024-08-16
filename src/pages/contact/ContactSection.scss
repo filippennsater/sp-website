@@ -156,18 +156,15 @@
 
 .confText {
     color: rgb(255, 255, 255);
-    opacity: 0%;
+    opacity: 100%;
     font-style: italic;
   }
 
-  #notSent {
-    color: rgb(255, 255, 255);
-    opacity: 0%;
-  }
-
-  #sent {
-    color: rgb(255, 255, 255);
+  .errorText {
+    color: rgb(116, 18, 18);
     opacity: 100%;
+    font-style: italic;
+    font-weight: bold;
   }
 
 @media screen and (max-width: 1700px) {
@@ -175,5 +172,13 @@
     .left-container{
         margin-top: 100px;
     }
+
+    .map-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0% 0% 5% 0%;
+      }
     
   }
